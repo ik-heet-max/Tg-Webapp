@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Greet from './Components/Greet'
+import Welcum from './Components/Welcome'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+	  <Greet name="Max" age="5" awesomeness="ultimate">
+	  <button>Dont boop me🥺</button>
+	  </Greet>
+	  <Welcum />
     </div>
   );
 }
