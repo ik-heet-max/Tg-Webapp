@@ -8,7 +8,7 @@ window.Telegram.WebApp
 function App() {
   return (
     <div className="App">
-	  <Greet name="Max" age="5" awesomeness="ultimate">
+	  <Greet name="Maxxx" age="5" awesomeness="ultimate">
 	  <button>Dont boop me🥺</button>
 	  </Greet>
 	  <Welcum />
