@@ -3,7 +3,7 @@ import './App.css';
 import Greet from './Components/Greet'
 import Welcum from './Components/Welcome'
 
-window.Telegram.WebApp
+const TgApp = window.Telegram.WebApp;
 
 function App() {
   return (
